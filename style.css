@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MaplestoryOTFBold';
+    margin: 0px;
+    word-break: keep-all;
+}
+
+section {   
+    display: flex;
+    justify-content: center;
+    background-color: white; 
+}
+
+.contents_box {
+    width: 550px;
+    height: 100vh;
+    background-color:  #fffafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    font-family: 'MaplestoryOTFBold';
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 300px;
+    margin-top: 10px;
+    box-shadow: 5px 5px black;
+}
+
+.status {
+    margin-top: 30px;
+}
+
+#status_bar_in {
+    width: 10%;
+}
+
+.logo {
+    font-size: 30px;
+    text-shadow: 2px 2px 2px gray;
+}
+
+#result_job {
+    font-size: 35px;
+    color: whitesmoke;
+    text-shadow: -1px 0 #000, 3px 3px 2px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.question, #test_description {
+    width: 300px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#recommend {
+    width: auto;
+    font-size: 18px;
+    color: white;
+    text-shadow: -1px 0 #000, 2px 2px 2px #000, 1px 0 #000, 0 -1px #000;
+    text-align: center;
+    line-height: 30px;
+}
+
+.result_description {
+    width: 80%;
+    font-family: none;
+    font-size: 12px;
+    padding: 10px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    text-align: left;
+    background-color: white;
+}
+
+.for_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#illustration {
+    width: 80%;
+    border: 3px solid black;
+}
+
+#result {
+    height: auto;
+}
+
+li {
+    text-align: left;
+}
+
+li::marker {
+    color: black;
+}
+
+#result div {
+    margin-top: 20px;
+}
+
+@media (max-width: 550px){
+    .contents_box{
+        width: 100%;
+    }
+}
